@@ -1,28 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz- App</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quiz Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #0a0014;
+      color: white;
+      height: 100vh;
+    }
+
+    .hero {
+      background: linear-gradient(135deg, #1a0033, #9900cc);
+      padding: 60px 20px;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-repeat: repeat;
+    }
+
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #ff33ff;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    p {
+      max-width: 600px;
+      margin: 10px auto 30px;
+      line-height: 1.6;
+      font-size: 1rem;
+      color: #e0e0e0;
+    }
+
+    .btn {
+      background-color: #ff00cc;
+      color: white;
+      padding: 14px 32px;
+      border: none;
+      border-radius: 30px;
+      font-size: 1.1rem;
+      cursor: pointer;
+      transition: all 0.3s ease-out;
+      box-shadow: 0 0 10px #ff00cc;
+    }
+
+    .btn:hover {
+      background-color: #e600b3;
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #ff00cc;
+    }
+
+    nav {
+      position: absolute;
+      top: 20px;
+      right: 40px;
+    }
+
+    nav a {
+      margin: 0 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s ease-out;
+    }
+
+    nav a:hover {
+      color: #ff33ff;
+    }
+
+  </style>
 </head>
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
 <body>
-<div class="container">
-    <div class="brain">🧠</div>
-    <div class="heading">
-        <h1>Quiz App</h1>
-    </div>
-    <hr>
-    <div class="testyour">
-        <p>Test your Knowledge with this app!</p>
-    </div>
-    <a href="question.html" target="_blank"><button>PLAY NOW!</button></a>
-</div>
-
-
+  <div class="hero">
+   
+    </nav>
+    <h1>QuizBash🧠</h1>
+    <p>Test your Knowledge with this app!</p>
+    <a href="question.html"><button class="btn">Start Quiz</button></a>
+  </div>
 </body>
 <script src="script.js"></script>
-
 </html>

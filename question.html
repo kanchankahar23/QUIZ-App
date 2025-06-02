@@ -8,33 +8,32 @@
 </head>
 <style>
     * {
-    margin: 0;
-    padding: 0;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: linear-gradient(135deg, #1a0033, #9900cc);
+      color: white;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+    }
+.container{
+  height: 60vh;
+  width: 65vh;
+  background-color: #6016aa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+border-radius: 15px;
 }
-
-body {
-    background-color: #e0e2db;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.container {
-    background: #3d348b;
-    height: 70vh;
-    width: 65vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 7%;
-
-    color: white;
-    flex-direction: column;
-    gap: 25px;
-}
-
 #question {
   font-size: 20px;
   margin-bottom: 20px;
@@ -55,12 +54,11 @@ body {
   background-color: rgb(103, 239, 103);
   color: white;
 }
+.option:hover{
+transition: all 0.4 ease-out;
+  background: #3b3383;
 
-.option.wrong {
-  background-color:rgb(240, 92, 92);
-  color: white;
 }
-
 #next-btn {
   margin-top: 20px;
   padding: 10px;
@@ -75,10 +73,16 @@ body {
 .hidden {
   display: none;
 }
+h1{
+  text-align: center;
+  font-size: 3rem;
+
+}
 
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
 <body>
+  <h1>QuizBash🧠</h1>
 <div class="container">
    <div id="quiz">
       <h2 id="question">Loading...</h2>
@@ -89,5 +93,4 @@ body {
     </div>
 </body>
 <script src="script.js"></script>
-
 </html>
