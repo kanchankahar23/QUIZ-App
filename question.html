@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-Area</title>
+</head>
+<style>
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e2db;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background: #3d348b;
+    height: 70vh;
+    width: 65vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+
+    color: white;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#question {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  width: 50vh;
+  background: #e0e0e0;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.option.correct {
+  background-color: rgb(103, 239, 103);
+  color: white;
+}
+
+.option.wrong {
+  background-color:rgb(240, 92, 92);
+  color: white;
+}
+
+#next-btn {
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  background: #1a1358;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+<body>
+<div class="container">
+   <div id="quiz">
+      <h2 id="question">Loading...</h2>
+      <div id="options"></div>
+      <button id="next-btn">Next</button>
+      <div id="result" class="hidden"></div>
+    </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

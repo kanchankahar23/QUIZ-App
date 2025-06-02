@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e2db;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    background: #3d348b;
+    height: 70vh;
+    width: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7%;
+
+    color: white;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.brain {
+    font-size: 4rem;
+    margin-top: 16px
+}
+
+.heading {
+    font-size: 2rem;
+
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+hr {
+    height: 0.1px;
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+button {
+    /* /* height: 150px; */
+    width: 150px;
+    background-color: #1e1a3f;
+    color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: none;
+
+}
+
+.testyour {
+    font-size: 1.3rem;
+}
