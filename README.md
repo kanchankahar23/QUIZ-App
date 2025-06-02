@@ -1,3 +1,4 @@
+#Quiz- App
 🎯 Quiz App
 A simple and interactive Quiz App built using HTML, CSS, and JavaScript. This app allows users to answer multiple-choice questions, view their scores, and restart the quiz for practice. It's a beginner-friendly project to demonstrate DOM manipulation, event handling, and basic logic implementation in JavaScript.
 
