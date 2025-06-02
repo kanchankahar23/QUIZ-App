@@ -29,41 +29,41 @@ const questions = [
     options: ["H2O", "CO2", "NaCl", "O2"],
     answer: "H2O",
   },
-  //  {
-  //   question: "Who is the female lead in Titanic?",
-  //   options: ["rose", "mary", "yuna", "sparkie"],
-  //   answer: "rose",
-  // },
-  //  {
-  //   question: "In which year did India get independence?",
-  //   options: ["1950", "1947", "1942", "1930"],
-  //   answer: "1947",
-  // },
-  //  {
-  //   question: "Which river is the longest in India?",
-  //   options: ["Yamuna", "brahmaputra", "godavari", "ganga"],
-  //   answer: "ganga",
-  // },
-  //  {
-  //   question: "What is the currency of Japan?",
-  //   options: ["yuan", "dollar", "yen", "won"],
-  //   answer: "yen",
-  // },
-  //  {
-  //   question: "Who invented the light bulb?",
-  //   options: ["newton", "Alexander graham bell", "thomas edison", "albert einstein"],
-  //   answer: "thomas edison",
-  // },
-  //  {
-  //   question: "Best Picture Oscar in 2024?",
-  //   options: ["Oppenheimer", "Barbie", "the fabelmans", "Avatar- the way of water"],
-  //   answer: "Oppenheimer",
-  // }, 
-  // {
-  //   question: "Best Original Screenplay award?",
-  //   options: ["A Real Pain", "The substance", "Anora", "the brutalist"],
-  //   answer: "Anora",
-  // },
+   {
+    question: "Who is the female lead in Titanic?",
+    options: ["rose", "mary", "yuna", "sparkie"],
+    answer: "rose",
+  },
+   {
+    question: "In which year did India get independence?",
+    options: ["1950", "1947", "1942", "1930"],
+    answer: "1947",
+  },
+   {
+    question: "Which river is the longest in India?",
+    options: ["Yamuna", "brahmaputra", "godavari", "ganga"],
+    answer: "ganga",
+  },
+   {
+    question: "What is the currency of Japan?",
+    options: ["yuan", "dollar", "yen", "won"],
+    answer: "yen",
+  },
+   {
+    question: "Who invented the light bulb?",
+    options: ["newton", "Alexander graham bell", "thomas edison", "albert einstein"],
+    answer: "thomas edison",
+  },
+   {
+    question: "Best Picture Oscar in 2024?",
+    options: ["Oppenheimer", "Barbie", "the fabelmans", "Avatar- the way of water"],
+    answer: "Oppenheimer",
+  }, 
+  {
+    question: "Best Original Screenplay award?",
+    options: ["A Real Pain", "The substance", "Anora", "the brutalist"],
+    answer: "Anora",
+  },
 ];
 
 let currentQuestionIndex = 0;
